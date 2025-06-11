@@ -33,7 +33,7 @@ if(largura > altura) {
     document.getElementById("pop-up").style.width = "65vw";
 }
 
-if(horario.getHours() > 19 || horario.getHours() < 7) {
+if(horario.getHours() > 7 || horario.getHours() < 7) {
     img.src = "src/BaseNoite.png";
     map.appendChild(Area("poly", "15, 669, 127, 577, 235, 625, 321, 501, 405, 617, 577, 657, 541, 699, 537, 729, 475, 743, 389, 809, 301, 757, 243, 803, 137, 797", "cidade", "src/7-cidade.jpg"));
     map.appendChild(Area("rect", "651, 775, 777, 953", "sorvete", "src/8-sorvete.jpg"));
@@ -47,7 +47,7 @@ if(horario.getHours() > 19 || horario.getHours() < 7) {
     map.appendChild(Area("rect", "0, 1120, 1024, 1536", "rua", "src/2-rua.jpg"));
     map.appendChild(Area("rect", "197, 761, 313, 1073", "placaOnibus", "src/3-placaOnibus.jpg"));
     map.appendChild(Area("rect", "365, 849, 581, 1077", "onibus", "src/4-onibus.jpg"));
-    map.appendChild(Area("rect", "601, 481, 913, 593", "placaSorvete", "src/5-placaSorvete.jpg"));
+    map.appendChild(Area("rect", "601, 481, 913, 593", "placaSorvete", "src/5-placaSorvete.png"));
     map.appendChild(Area("circle", "133, 521, 66", "cidade", "src/6-cidade.jpg"));
 }
 
