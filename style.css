@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(34, 34, 34);
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    z-index: 1000;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+#popup button {
+    font-size: 20px;
+    border-radius: 100%;
+    border-width: 0px;
+    padding-inline: 0px;
+    padding-block: 0px;
+}
